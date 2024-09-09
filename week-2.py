@@ -1,7 +1,10 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import streamlit as st
- 
+
+# Title
+st.title(':sparkles: Fisika Komputasi Awan :sparkles:')
+
 # Header
 st.header('Amalia Ika Sriyani :sparkles:')
 st.header('210322607258')
