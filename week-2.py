@@ -6,8 +6,7 @@ import streamlit as st
 st.title(':sparkles: Fisika Komputasi Awan :sparkles:')
 
 # Header
-st.header('Amalia Ika Sriyani')
-st.header('210322607258')
+st.header('Amalia Ika Sriyani/210322607258')
 st.subheader('Plot')
  
 x = np.linspace(-2 * np.pi, 2 * np.pi, 1000)  # Generating x values from -2*pi to 2*pi
