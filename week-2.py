@@ -6,7 +6,7 @@ import streamlit as st
 st.title(':sparkles: Fisika Komputasi Awan :sparkles:')
 
 # Header
-st.header('Amalia Ika Sriyani :sparkles:')
+st.header('Amalia Ika Sriyani')
 st.header('210322607258')
 st.subheader('Plot')
  
