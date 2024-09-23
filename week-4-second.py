@@ -56,4 +56,4 @@ def konversi( ):
 #def penutup( ):
 	#print('selesai')
   
-st.write(x, ' ', sx, '= ...', sy)
+st.write(x, ' ', sx, ' = ', y, sy)
