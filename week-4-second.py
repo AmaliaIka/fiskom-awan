@@ -5,7 +5,7 @@ sx = st.text_input('Satuan', 'C')
 st.write("Anda memasukkan", x, ' ', sx)
 sy = st.text_input('Dikonversi ke', 'C')
 y = 0
-def konversi( ):
+# def konversi( ):
 	if (sx=='C'):
 		if (sy=='C'):
 			y = x
@@ -50,7 +50,7 @@ def konversi( ):
 			y = x
 		else:
 			'masukkan nya salah'
-	else:
+	#else:
 			'masukkan nya salah'
 		
 #def penutup( ):
