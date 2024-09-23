@@ -12,9 +12,9 @@ if (sx == 'C'):
 	elif (sy == 'R'):
 		y = (x*4/5)
 	elif (sy == 'F'):
-		y = ((x+32)*5/9)
+		y = ((x*9/5)+32)
 	elif (sy == 'K'):
-		y = (x+273)
+		y = (x+273.15)
 	else:
 		'masukkan nya salah'
 if (sx == 'R'):
@@ -23,29 +23,29 @@ if (sx == 'R'):
 	elif (sy == 'R'):
 		y = x
 	elif (sy == 'F'):
-		y = ((x+32)*4/9)
+		y = ((x*9/4)+32)
 	elif (sy == 'K'):
-		y = (x*5/4+273)
+		y = ((x*5/4)+273.15)
 	else:
 		'masukkan nya salah'
 if (sx == 'F'):
 	if (sy == 'C'):
-		y = ((x+32)*9/5)
+		y = ((x-32)*5/9)
 	elif (sy == 'R'):
-		y = ((x+32)*4/5)
+		y = ((x-32)*4/9)
 	elif (sy == 'F'):
 		y = x
 	elif (sy == 'K'):
-		y = (((x+32)*5/9)+273)
+		y = (((x-32)*5/9)+273.15)
 	else:
 		'masukkan nya salah'
 if (sx == 'K'):
 	if (sy == 'C'):
-		y = (x-273)
+		y = (x-273.15)
 	elif (sy == 'R'):
-		y = ((x-273)*4/5)
+		y = ((x-273.15)*4/5)
 	elif (sy=='F'):
-		y = ((x-273)*9/5+32)
+		y = (((x-273.15)*9/5)+32)
 	elif (sy=='K'):
 		y = x
 	else:
