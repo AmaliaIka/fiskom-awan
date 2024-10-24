@@ -9,7 +9,7 @@ st.title(':sparkles: UTS Fisika Komputasi Awan :sparkles:')
 
 # Header
 st.header('Amalia Ika Sriyani')
-st.heade('210322607258')
+st.header('210322607258')
 
 # Membuat lingkaran utama dengan radius 1
 circle = Circle((0, 0), 1, color = 'black', fill = False, linewidth = 2, linestyle = '-', alpha = 0.2)
