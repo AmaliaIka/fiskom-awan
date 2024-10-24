@@ -47,7 +47,7 @@ for i in range(1, len(x)):
     ax.plot([0, x[i]], [0, y[i]], color = 'black', linestyle = '--', alpha = 0.3)
 
 # Plot scatter untuk titik
-ax.scatter(x, y, c = color, s = size, alpha = 0.5) 
+ax.scatter(x, y, c=color, s=size, alpha=0.5) 
 
 # Membuat plot 
 ax.set_ylabel("y")
