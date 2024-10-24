@@ -16,7 +16,7 @@ circle = Circle((0, 0), 1, color='black', fill=False, linewidth=3, linestyle='-'
 # Inisialisasi list untuk menyimpan titik
 x = [0]
 y = [0]
-color = [0.0, 0.7, 0.0]
+color = [(0.0, 0.7, 0.0)]
 size = [371]
 
 # Membuat tombol untuk menghasilkan data acak
