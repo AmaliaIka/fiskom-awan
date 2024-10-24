@@ -44,7 +44,7 @@ ax.add_patch(circle)
 
 # Menggambar garis dari pusat ke titik
 for i in range(1, len(x)):
-    ax.plot([0, x[i]], [0, y[i]], color='red', linestyle='--', alpha=0.3)
+    ax.plot([0, x[i]], [0, y[i]], color='blue', linestyle='--', alpha=0.3)
 
 # Plot scatter untuk titik
 ax.scatter(x, y, c=color, s=size, alpha=0.5) 
